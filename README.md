@@ -1,13 +1,14 @@
-# Sistem Pakar Rekomendasi Laptop
+# 💻 Sistem Pakar Rekomendasi Laptop
 
-Website sistem pakar yang membantu pengguna memilih laptop berdasarkan budget dan kebutuhan menggunakan metode Forward Chaining.
+Website sistem pakar yang membantu pengguna menentukan laptop berdasarkan budget dan kebutuhan menggunakan metode Forward Chaining.
 
-## Teknologi
+## 🚀 Teknologi
 - PHP
 - MySQL
 - HTML
 - CSS
 - Bootstrap
+- JavaScript
 
-## Demo Website
+## 🌐 Demo
 https://wawa.freehosting.dev/
