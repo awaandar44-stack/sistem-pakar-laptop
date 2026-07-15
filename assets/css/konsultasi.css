@@ -1,0 +1,32 @@
+
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Poppins,sans-serif;background:linear-gradient(180deg,#fff8fc,#fff);overflow-x:hidden}
+.blob{position:fixed;border-radius:50%;filter:blur(70px);z-index:-1}
+.blob1{width:300px;height:300px;background:#ffc4dd;top:-100px;left:-80px}
+.blob2{width:420px;height:420px;background:#efd4ff;right:-120px;bottom:-120px}
+.left-box{text-align:center}
+.hero{width:100%;max-width:330px;animation:f 4s ease-in-out infinite}
+.left-box h2{font-weight:800;color:#ff4fa3;margin-top:20px}
+.left-box p{line-height:1.8;color:#666}
+.tips{background:#fff;border-radius:25px;padding:25px;margin-top:25px;box-shadow:0 20px 40px rgba(0,0,0,.06);text-align:left}
+.glass-card{background:rgba(255,255,255,.55);backdrop-filter:blur(20px);padding:40px;border-radius:35px;box-shadow:0 25px 45px rgba(255,105,180,.12)}
+.title{text-align:center;margin-bottom:25px}
+.title h2{font-weight:800;color:#ff4fa3}
+label{font-weight:600;margin-bottom:8px;display:block}
+.input-group-text{background:#ffd9ea;border:none}
+.form-control{border:none;padding:15px;border-radius:15px}
+.budget-grid,.need-grid{display:grid;gap:15px}
+.budget-grid{grid-template-columns:repeat(3,1fr)}
+.need-grid{grid-template-columns:repeat(2,1fr)}
+.option-card,.need-card{background:#fff;border:2px solid #ffe3ef;border-radius:22px;padding:18px;cursor:pointer;transition:.3s;text-align:center}
+.option-card:hover,.need-card:hover{transform:translateY(-6px);border-color:#ff7eb6}
+.option-card input,.need-card input{display:none}
+.need-card{font-size:30px}
+.need-card span{display:block;font-size:15px;font-weight:600;margin-top:8px}
+.btn-main{border:none;background:linear-gradient(90deg,#ff63b2,#ff8bc8);color:#fff;padding:16px;border-radius:999px;font-weight:700}
+.btn-back{text-align:center;text-decoration:none;background:#fff;color:#ff4fa3;padding:16px;border-radius:999px;font-weight:700}
+@keyframes f{50%{transform:translateY(-15px)}}
+@media(max-width:768px){
+.budget-grid{grid-template-columns:1fr}
+.need-grid{grid-template-columns:1fr 1fr}
+}
